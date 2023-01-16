@@ -121,8 +121,6 @@ def collect_character_info(profiles, choice_engraving, web_browser, action):
     profile_names = {}
     if action == "filter":
         for i in range(len(choice_engraving)):
-            print(choice_engraving[i])
-            print(meta_engraving_dict[choice_engraving[i]])
             choice_engraving[i] = meta_engraving_dict[choice_engraving[i]]
 
     for character in profiles:
