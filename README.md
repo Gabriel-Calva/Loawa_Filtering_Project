@@ -14,17 +14,33 @@ However, the issue with Loawa is that when it comes to filtering out top charact
 
 ## The Process
 
+1. We first ask the user to input that class that they would like to filter:
 
-### 3. Added in a Shadow Tetrimino
-   - The previous version didn't have a shadow tetrimino. Adding this in helps players see exactly where their tetrimino will fall
-### 4. Added in a Fast Drop action
-   - Pairing this with the added shadow tetrimino leads to the potentially for very fast gameplay
-### 5. Added in a Holding Tetrimino function
-   - With the addition of the holding piece function, players have a lot more flexibility with what tetrimino they play with. This addition in conjunction with both the new randomization and
-   the extended queue make for a very modernized feel to the game.
-   
-#### Bug Fixes
-- Fixed a bug that caused tetriminos to fly off the sides at the top of the grid if moved too quickly to the left or right at the beggining of play
-- Fixed a bug that caused the game to crash if a tetrimino tried to move outside of the grid
-- Fixed an issue with the tetriminos not being the correct color after the randomization changes
-- Fixed a bug that caused empty rows to float when certain combinations of complete rows were deleted.
+<img src="images/Class_selectbox.PNG" width="500"/>
+
+2. We then ask the user for the specific class engraving that they would like to filter:
+
+<img src="images/class_engraving.PNG" width="500"/>
+
+3. Next, we ask the user how many profiles they would like to search through:
+
+<img src="images/click_more.PNG" width="500"/>
+
+4. Finally, we ask for which meta engravings they would like to filter. The user can select multiple engravings for a more sophisticated search:
+
+<img src="images/meta_engravings.PNG" width="500"/>
+
+5. Once the above are complete, all that's left is to click the button and let the filter process play out! Here's a video demonstration of how the process works out:
+
+https://user-images.githubusercontent.com/116387870/214235922-5c7945c1-3ba0-4b7f-adc8-7752d4bcb0a0.mp4
+
+Here is an image of what the results look like. As of now, the application can only display the equipped engravings of the character, but if the user wishes to see the profile, the character's name is displayed with a hyperlink that leads to the full character profile link.
+
+<img src="images/webapp_results.PNG" width="500"/>
+
+## Future Plans
+
+- Have the results also display the level of the character next to the name
+- Add a headless option to hide the browser
+- Display a photo of the character (Similar to the image at the top of the page, but smaller)
+- Add optional filters such as skills, gems, cards, equipped armor, etc.
